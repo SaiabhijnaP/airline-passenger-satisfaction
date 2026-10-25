@@ -1,0 +1,4 @@
+Model,Train_Time_Sec,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+Logistic Regression,2.13,0.8781,0.8748,0.8462,0.8603,0.9205
+Random Forest,15.26,0.9241,0.9266,0.9003,0.9133,0.9561
+Hist Gradient Boosting,5.17,0.9238,0.9261,0.9,0.9129,0.9568

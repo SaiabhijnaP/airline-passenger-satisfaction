@@ -1,0 +1,94 @@
+{
+    "best_model": "Hist Gradient Boosting",
+    "best_metrics": {
+        "Model": "Hist Gradient Boosting",
+        "Train_Time_Sec": 5.17,
+        "Accuracy": 0.9238,
+        "Precision": 0.9261,
+        "Recall": 0.9,
+        "F1_Score": 0.9129,
+        "ROC_AUC": 0.9568
+    },
+    "all_models": [
+        {
+            "Model": "Logistic Regression",
+            "Train_Time_Sec": 2.13,
+            "Accuracy": 0.8781,
+            "Precision": 0.8748,
+            "Recall": 0.8462,
+            "F1_Score": 0.8603,
+            "ROC_AUC": 0.9205
+        },
+        {
+            "Model": "Random Forest",
+            "Train_Time_Sec": 15.26,
+            "Accuracy": 0.9241,
+            "Precision": 0.9266,
+            "Recall": 0.9003,
+            "F1_Score": 0.9133,
+            "ROC_AUC": 0.9561
+        },
+        {
+            "Model": "Hist Gradient Boosting",
+            "Train_Time_Sec": 5.17,
+            "Accuracy": 0.9238,
+            "Precision": 0.9261,
+            "Recall": 0.9,
+            "F1_Score": 0.9129,
+            "ROC_AUC": 0.9568
+        }
+    ],
+    "top_features": [
+        {
+            "Feature": "Type of Travel",
+            "Importance_Mean": 0.06822729877653362,
+            "Importance_Std": 0.0018660361393121874
+        },
+        {
+            "Feature": "Inflight wifi service",
+            "Importance_Mean": 0.044318256385738095,
+            "Importance_Std": 0.0007181395690155684
+        },
+        {
+            "Feature": "Customer Type",
+            "Importance_Mean": 0.02843276140546369,
+            "Importance_Std": 0.0009239743655279932
+        },
+        {
+            "Feature": "Online boarding",
+            "Importance_Mean": 0.009734740002271036,
+            "Importance_Std": 0.00043642362061134293
+        },
+        {
+            "Feature": "Class",
+            "Importance_Mean": 0.005379114250674522,
+            "Importance_Std": 0.0005381712482050269
+        },
+        {
+            "Feature": "Checkin service",
+            "Importance_Mean": 0.004350264756176036,
+            "Importance_Std": 0.00019552055924046164
+        },
+        {
+            "Feature": "Baggage handling",
+            "Importance_Mean": 0.0037091236045565744,
+            "Importance_Std": 0.0002559511575845988
+        },
+        {
+            "Feature": "Seat comfort",
+            "Importance_Mean": 0.002885616644035305,
+            "Importance_Std": 0.0003415343059302608
+        },
+        {
+            "Feature": "Cleanliness",
+            "Importance_Mean": 0.0021131446288191525,
+            "Importance_Std": 0.00025724858218297535
+        },
+        {
+            "Feature": "Age",
+            "Importance_Mean": 0.0018924710544566902,
+            "Importance_Std": 0.0003669607121036944
+        }
+    ],
+    "timestamp": "2026-10-25 16:30:58"
+}
